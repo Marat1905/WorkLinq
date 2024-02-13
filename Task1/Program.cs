@@ -17,9 +17,9 @@ namespace Task1
             Console.WriteLine(string.Join(" ", allStudents));
         }
 
-        /// <summary> </summary>
-        /// <param name="classes"></param>
-        /// <returns></returns>
+        /// <summary>Метод для преобразования массива классов в общий список</summary>
+        /// <param name="classes">Массив классов</param>
+        /// <returns>Возврат массива строк с учениками</returns>
         static string[] GetAllStudents(Classroom[] classes)
         {
             if (classes == null)
